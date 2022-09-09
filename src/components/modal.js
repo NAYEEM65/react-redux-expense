@@ -106,7 +106,7 @@ export default function Modal() {
                                     <div>
                                         <h3 className="text-gray-800">Type :</h3>
                                     </div>
-                                    <div class="flex items-center mb-4">
+                                    <div className="flex items-center mb-4">
                                         <input
                                             id="income"
                                             type="radio"
@@ -114,16 +114,16 @@ export default function Modal() {
                                             name="type"
                                             checked={type === 'income'}
                                             onChange={(e) => setType('income')}
-                                            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+                                            className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
                                         />
                                         <label
-                                            for="income"
-                                            class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                            htmlFor="income"
+                                            className="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                                         >
                                             Income
                                         </label>
                                     </div>
-                                    <div class="flex items-center mb-4">
+                                    <div className="flex items-center mb-4">
                                         <input
                                             id="expense"
                                             type="radio"
@@ -132,11 +132,11 @@ export default function Modal() {
                                             placeholder="Expense"
                                             checked={type === 'expense'}
                                             onChange={(e) => setType('expense')}
-                                            class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
+                                            className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600"
                                         />
                                         <label
-                                            for="expense"
-                                            class="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                            htmlFor="expense"
+                                            className="block ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                                         >
                                             Expense
                                         </label>
