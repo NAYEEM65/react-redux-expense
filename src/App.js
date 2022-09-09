@@ -4,7 +4,6 @@ import Layout from './components/Layout';
 import Transactions from './components/Transactions/Transactions';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TotalTransactions from './components/Transactions/TotalTransactions';
-import Modal from './components/modal';
 
 function App() {
     return (
